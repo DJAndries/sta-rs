@@ -92,7 +92,7 @@ pub struct Commune {
 }
 
 #[allow(non_snake_case)]
-#[derive(Clone, Eq, PartialEq)]
+#[derive(Clone, Eq, PartialEq, Hash)]
 pub struct Share {
   A: AccessStructure,
   S: sharks::Share,
